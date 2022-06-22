@@ -8,7 +8,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "QuadrupedVision.ts"
+        "QuadrupedVision.ts",
+       "_locales/zh-CN/QuadrupedVision-strings.json"
     ],
     "testFiles": [
         "test.ts"
