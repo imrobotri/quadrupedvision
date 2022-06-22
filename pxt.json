@@ -9,9 +9,6 @@
         "QuadrupedVision.ts",
         "_locales/zh-CN/QuadrupedVision-strings.json"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
     "targetVersions": {
         "target": "5.0.6",
         "targetId": "microbit"
