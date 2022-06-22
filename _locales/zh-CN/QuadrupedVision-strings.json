@@ -1,4 +1,5 @@
 {
+    "QuadrupedVision|block": "四足视觉",
     "QuadrupedVision.Image_init|block": "图像识别初始化",
     "QuadrupedVision.Tag_return|block": "标签返回 | %data",
     "QuadrupedVision.Ball_return|block": "小球返回 | %P",
