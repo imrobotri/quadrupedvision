@@ -2,14 +2,13 @@
     "name": "QuadrupedVision",
     "description": "",
     "dependencies": {
-        "core": "*",
+        "core": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "QuadrupedVision.ts",
-        "_locales/zh-CN/QuadrupedVision-strings.json"
+        "QuadrupedVision.ts"
     ],
     "testFiles": [
         "test.ts"
