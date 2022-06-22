@@ -276,7 +276,6 @@ namespace QuadrupedVision {
     * IODO:Image recognition internal related pins and settings initialization
     * IODO:图像识别内部相关引脚和设置初始化
     */
-    //% subcategory=sensor
     //% blockGap=8
     //% blockId=QuadrupedVision_Image_ini block="Image recognition initialization"
     export function Image_init() {
@@ -288,7 +287,6 @@ namespace QuadrupedVision {
      * IODO: Turn on the color or label recognition function for setting graphics.
      * IODO:开启设置图形的颜色或者标签识别功能。
      */
-    //% subcategory=sensor
     //% blockGap=8
     //% blockId=OnToggle block="OnToggle|%Fun"
     export function OnToggle(Fun: FunctionID): void {
@@ -309,7 +307,6 @@ namespace QuadrupedVision {
      * IODO:Turn on the Settings Graphic Recognition function to select balls, shapes, and lines, as well as the corresponding recognition colors.
      * IODO:开启设置图形识别功能，可以选择小球、形状和线以及对应识别颜色。
      */
-    //% subcategory=sensor
     //% blockGap=8
     //% blockId=OnToggle1 block="OnToggle1| %Col|%Fun"
     export function OnToggle1(Col: ColorID, Fun: FunctionID1): void {
@@ -332,7 +329,6 @@ namespace QuadrupedVision {
      * IODO:Turn on the settings graphic recognition function to identify red or black lines.
      * IODO:开启设置图形识别功能，进行红色线或者黑色线的识别。
      */
-    //% subcategory=sensor
     //% blockGap=8
     //% blockId=OnToggle2 block="OnToggle2| %Col|Line"
     export function OnToggle2(Col: ColorLineID): void {
@@ -352,7 +348,6 @@ namespace QuadrupedVision {
      * IODO:Turn on the graphic recognition function to identify the line and its color, and at the same time identify the shape and its color.
      * IODO:开启设置图形识别功能，进行巡线及其颜色的识别，同时有形状及其颜色的识别。
      */
-    //% subcategory=sensor
     //% blockGap=8
     //% blockId=TogetherOn block="TogetherOn| %Col|Line|%Col2|Shape"
     export function TogetherOn(Col1: ColorLineID, Col2: ColorID): void {
@@ -373,7 +368,6 @@ namespace QuadrupedVision {
      * IODO:Turn on the setting pattern recognition function, which can perform line inspection and color recognition at the same time.
      * IODO:开启设置图形识别功能，同时进行巡线以及颜色识别。
      */
-    //% subcategory=sensor
     //% blockGap=8
     //% blockId=TogetherOn1 block="TogetherOn1| %Col|Line|and color recognition"
     export function TogetherOn1(Col1: ColorLineID): void {
@@ -393,7 +387,6 @@ namespace QuadrupedVision {
      * IODO:Enable setting pattern recognition function, and perform line patrol and AprilTag label recognition at the same time.
      * IODO:开启设置图形识别功能，同时进行巡线以及AprilTag标签识别。
      */
-    //% subcategory=sensor
     //% blockGap=8
     //% blockId=TogetherOn2 block="TogetherOn2| %Col|Line|and AprilTag"
     export function TogetherOn2(Col1: ColorLineID): void {
@@ -414,7 +407,6 @@ namespace QuadrupedVision {
     * IODO:Returns the position value of the Tag code set, flips the corresponding position of the X, Y, and Z axes, and the flip angle of the X, Y, and Z axes.
     * IODO:返回Tag码集的位置值，翻转X、Y、Z轴对应位置及X、Y、Z轴的翻转角度。
     */
-    //% subcategory=sensor
     //% blockGap=8
     //% blockId=sensor_Tag_return block="Tag code position return value| %data"
     export function Tag_return(data: Position): number {
@@ -439,7 +431,6 @@ namespace QuadrupedVision {
     * IODO:Returns the position information of the ball. Recognition status 1 indicates recognized, 0 indicates unrecognized; the X and Y axis positions of the center of the pellet in the image; the XY two-dimensional width and height of the pellet; and the recognition effect (the higher the recognition effect, the closer the sphere is). Return value type: int.
     * IODO:返回小球的位置信息。识别状态1表示已识别，0表示未识别；图像中小球中心的X、Y轴位置；小球的XY二维宽高，以及识别效果（识别效果越高，小球的距离越近）。返回值类型：int。
     */
-    //% subcategory=sensor
     //% blockGap=8
     //% blockId=sensor_Ball_return block="Ball returnvalue| %P"
     export function Ball_return(P: Ball_Position): number {
@@ -462,7 +453,6 @@ namespace QuadrupedVision {
     * IODO:Robot line patrol status returns (0: not recognized to line, 1: recognized to line). Recognition effect: The pixel value of the recognition line is 0-19200, the deviation angle range (-90 ° ~ 90 °), the deviation X axis position range (- 160 ~ 160).
     * IODO:机器人巡线状态返回（0：未识别到线，1：识别到线）。识别效果：识别线像素值大小为0-19200，偏差角度范围（-90°~90°），偏差 X 轴位置 范围(- 160~160) 。
     */
-    //% subcategory=sensor
     //% blockGap=8
     //% blockId=sensor_Line_return block="Line patrol return value| %x"
     export function Line_return(X: Line_Position): number {
@@ -483,7 +473,6 @@ namespace QuadrupedVision {
     * IODO:机器人识别颜色并返回16bit数字。（1：红色，2：蓝色，3：同时有红色和黑色，4：黄色，5：同时有红色和黄色，6：同时有黄色和蓝色，7：同时有红蓝黄三色，8：绿色，9：同时有红色和绿色）
     * 
     */
-    //% subcategory=sensor
     //% blockGap=8
     //% blockId=ColorRecognition block="Color Recognition return value"
     export function Colorreturn(): number {
@@ -503,7 +492,6 @@ namespace QuadrupedVision {
     * IODO:The robot recognizes the shape and returns a numeric range of 0 to 3. (0: None:, 1: Triangle, 2: Rectangle, 3: Circle)
     * IODO:机器人识别形状并返回0~3的数字范围。（0：无：，1：三角形，2：矩形，3：圆形）
     */
-    //% subcategory=sensor
     //% blockGap=8
     //% blockId=ShapeRecognition block="shape recognition returns"
     export function Shapereturn(): number {
