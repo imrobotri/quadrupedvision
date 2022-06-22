@@ -9,7 +9,7 @@
         "main.ts",
         "README.md",
         "QuadrupedVision.ts",
-       "_locales/zh-CN/QuadrupedVision-strings.json"
+        "_locales/zh-CN/QuadrupedVision-strings.json"
     ],
     "testFiles": [
         "test.ts"
