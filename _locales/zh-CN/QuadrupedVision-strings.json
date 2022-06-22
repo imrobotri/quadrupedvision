@@ -1,3 +1,14 @@
 {
-    
+    "QuadrupedVision.Image_init|block": "图像识别初始化",
+    "QuadrupedVision.Tag_return|block": "标签返回 | %data",
+    "QuadrupedVision.Ball_return|block": "小球返回 | %P",
+    "QuadrupedVision.Line_return|block": "巡线返回 | %X",
+    "QuadrupedVision.Colorreturn|block": "颜色返回",
+    "QuadrupedVision.Shapereturn|block": "形状返回",
+    "QuadrupedVision.TogetherOn|block": "开启/切换|%Col1|巡线 |%Col2|形状同时识别功能",
+    "QuadrupedVision.TogetherOn1|block": "开启/切换|%Col1|巡线和颜色同时识别功能",
+    "QuadrupedVision.TogetherOn2|block": "开启/切换|%Col1|巡线和标签同时识别功能",
+    "QuadrupedVision.OnToggle|block": "开启/切换|%Fun|识别功能",
+    "QuadrupedVision.OnToggle1|block": "开启/切换| %Col|%Fun|识别功能",
+    "QuadrupedVision.OnToggle2|block": "开启/切换| %Col|巡线识别功能"
 }
